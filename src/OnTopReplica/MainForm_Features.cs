@@ -107,8 +107,7 @@ namespace OnTopReplica {
             }
             set {
                 //Cancel hiding chrome if no thumbnail is shown
-                if (!value && !_thumbnailPanel.IsShowingThumbnail)
-                    return;
+                // if (!value && !_thumbnailPanel.IsShowingThumbnail) return;
 
                 if (!value) {
                     Location = new Point {

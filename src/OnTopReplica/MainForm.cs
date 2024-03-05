@@ -33,6 +33,7 @@ namespace OnTopReplica {
             
             //WinForms init pass
             InitializeComponent();
+            IsChromeVisible = false;
 
             //Store default values
             DefaultNonClickTransparencyKey = this.TransparencyKey;

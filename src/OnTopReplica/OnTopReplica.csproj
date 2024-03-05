@@ -303,6 +303,7 @@
     <EmbeddedResource Include="Strings.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Strings.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Strings.ru.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -416,6 +417,7 @@
     <EmbeddedResource Include="Strings.pt.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Strings.pt.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <None Include="OnTopReplica.exe.manifest" />
     <None Include="packages.config" />

@@ -22,18 +22,19 @@ namespace OnTopReplica {
         }
 
         private void InitFormComponents() {
-            BackColor = Color.Black;
+            BackColor = Color.Transparent;
 
             //Themed Label
             _labelGlass = new WindowsFormsAero.ThemeLabel {
                 Dock = DockStyle.Fill,
-                ForeColor = SystemColors.ControlText,
+                ForeColor = Color.Red,
                 Location = Point.Empty,
                 Size = ClientSize,
+                Font = new Font("Segoe UI", 30, FontStyle.Bold),
                 Name = "labelGlass",
-                Text = Strings.RightClick,
+                Text = "🪟",
                 TextAlign = HorizontalAlignment.Center,
-                TextAlignVertical = VerticalAlignment.Center
+                TextAlignVertical = VerticalAlignment.Center,
             };
             this.Controls.Add(_labelGlass);
         }
